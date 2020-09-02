@@ -7,4 +7,30 @@ body {
   display: inline-block;
   width: 100px;
   height: 250px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.box2 {
+    background: rgba(255, 255, 255, 0.4);
+    width: 500px;
+    height: 250px;
+    overflow: hidden;
+    margin: 5px;
+    padding: 5px;
+}
+
+.secondary-box {
+    background: rgb(122, 158, 55);
+    height: 30px;
+    width: 700px;
+    padding: 5px;
+}
+
+.box3 {
+    background: rgba(255, 255, 255, 0.5);
+    width: 270px;
+    height: 200px;
+    margin: 5px;
+    padding: 5px;
 }
