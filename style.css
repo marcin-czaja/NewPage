@@ -1,5 +1,11 @@
 body {
   background: rgb(231, 214, 158);
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-block {
+    background: rgba(255, 255, 255, 0.2);
 }
 
 .box {
@@ -11,102 +17,130 @@ body {
   padding: 5px;
 }
 
-.box2 {
-    background: rgba(255, 255, 255, 0.4);
-    width: 500px;
-    height: 250px;
-    overflow: hidden;
+h1 {
     margin: 5px;
-    padding: 5px;
+}
+
+header {
+    margin: 5px;
+}
+
+footer {
+    margin: 5px;
+    position: absolute;
+    right: 0;
+}
+
+.box2 {
+  background: rgba(255, 255, 255, 0.4);
+  width: 500px;
+  height: 250px;
+  overflow: hidden;
+  margin: 5px;
+  padding: 5px;
 }
 
 .secondary-box {
-    background: rgb(122, 158, 55);
-    height: 30px;
-    width: 700px;
-    padding: 5px;
+  background: rgb(122, 158, 55);
+  height: 30px;
+  width: 700px;
+  padding: 5px;
 }
 
 .box3 {
-    background: rgba(255, 255, 255, 0.5);
-    width: 270px;
-    height: 200px;
-    margin: 5px;
-    padding: 5px;
-    margin-bottom: 75px;
+  background: rgba(255, 255, 255, 0.5);
+  width: 270px;
+  height: 200px;
+  margin: 5px;
+  padding: 5px;
+  margin-bottom: 75px;
 }
 
 .secondary-box2 {
-    background: rgb(50, 163, 50);
-    width: 450px;
-    height: 30px;
+  background: rgb(50, 163, 50);
+  width: 450px;
+  height: 30px;
 }
 
 .box4 {
-    background: rgba(255, 255, 255, 0.6);
-    padding: 5px;
-    margin: 5px;
-    height: 150px;
-    overflow: auto;
-    max-width: 900px;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 5px;
+  margin: 5px;
+  height: 150px;
+  overflow: auto;
+  max-width: 900px;
 }
 
 .secondary-box3 {
-    background: rgb(65, 163, 65);
-    width: 1100px;
+  background: rgb(65, 163, 65);
+  width: 1100px;
 }
 
 .box0 {
-    width: 40vw;
-    overflow: auto;
-    background: rgb(212, 190, 142);
-    display: inline-block;
+  width: 40vw;
+  overflow: auto;
+  background: rgb(212, 190, 142);
+  display: inline-block;
+  margin: 5px;
 }
 
 .box5 {
-    background: rgb(181, 138, 221);
-    width: 40vw;
-    overflow: auto;
-    display: inline-block;
-    position: fixed;
+  background: rgb(181, 138, 221);
+  width: 40vw;
+  overflow: auto;
+  display: inline-block;
+  position: absolute;
+  margin: 5px;
+  right: 0;
+
 }
 
 .secondary-box4 {
-    background: yellow;
-    width: 50%;
-    margin: 5px;
-    overflow: auto;
-    height: 50px;
-    padding: 5px;
+  background: yellow;
+  width: 50%;
+  margin: 5px;
+  overflow: auto;
+  height: 50px;
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
 }
 
 .secondary-box5 {
-    background: rgb(202, 147, 44);
-    margin: 5px;
-    height: 10%;
-    padding: 10px 20px 25px 30px;
-    overflow: hidden;
+  background: rgb(202, 147, 44);
+  margin: 5px;
+  height: 10%;
+  padding: 10px 20px 25px 30px;
+  overflow: hidden;
 }
 
 .secondary-box6 {
-    background: rgb(231, 174, 69);
-    height: 100px;
-    width: 50%;
-    margin: 5px;
-    padding: 25px;
-    border:10px dashed white;
-    border-radius: 20px;
+  background: rgb(231, 174, 69);
+  height: 100px;
+  width: 50%;
+  margin: 5px;
+  padding: 25px;
+  border: 10px dashed white;
+  border-radius: 20px;
 }
 
 .secondary-box7 {
-    background: rgb(221, 175, 89);
-    border: 5px solid rgb(216, 212, 212);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    overflow: auto;
-    padding: 35px;
-    margin: 5px;
-    display: inline-block;
-    
+  background: rgb(221, 175, 89);
+  border: 5px solid rgb(216, 212, 212);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  overflow: auto;
+  padding: 35px;
+  margin: 5px auto;
+}
+
+.secondary-box8 {
+    background: rgb(236, 182, 82);
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 7px solid white;
+    box-sizing: border-box;
 }
