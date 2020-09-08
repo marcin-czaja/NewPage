@@ -1,5 +1,5 @@
 const name = 'Marcin'
-const age = 32
+const age = 22
 
 console.log(name)
 console.log(age)
@@ -11,3 +11,7 @@ console.log(heading);
 heading.innerHTML = `Siema, nazywam się ${name} i mam ${age} lata`
 
 console.log(heading.innerHTML);
+
+
+const emptyClass = document.querySelector('.secondary-box13--js');
+emptyClass.innerHTML = `Witam, oto test wklejania tekstu do pustego div'a, za pomocą jsa`;
