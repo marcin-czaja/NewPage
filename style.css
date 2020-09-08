@@ -3,12 +3,11 @@ body {
   margin: 0px;
   padding: 0px;
   position: relative;
-  
 }
 
 .main-block {
-    background: rgba(255, 255, 255, 0.2);
-    z-index: 11;
+  background: rgba(255, 255, 255, 0.2);
+  z-index: 11;
 }
 
 .box {
@@ -21,17 +20,17 @@ body {
 }
 
 h1 {
-    margin: 5px;
+  margin: 5px;
 }
 
 header {
-    margin: 5px;
+  margin: 5px;
 }
 
 footer {
-    margin: 5px;
-    position: absolute;
-    right: 0;
+  margin: 5px;
+  position: absolute;
+  right: 0;
 }
 
 .box2 {
@@ -85,6 +84,7 @@ footer {
   background: rgb(212, 190, 142);
   display: inline-block;
   margin: 5px;
+  position: relative;
 }
 
 .box5 {
@@ -95,7 +95,6 @@ footer {
   position: absolute;
   margin: 5px;
   right: 0;
-
 }
 
 .secondary-box4 {
@@ -139,21 +138,35 @@ footer {
 }
 
 .secondary-box8 {
-    background: rgb(236, 182, 82);
-    height: 200px;
-    width: 200px;
-    padding: 20px;
-    margin: 20px;
-    border: 7px solid white;
-    box-sizing: border-box;
-    
+  background: rgb(236, 182, 82);
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+  border: 7px solid white;
+  box-sizing: border-box;
 }
 
 .secondary-box9 {
-    background: rgba(255, 255, 255, 0.5);
-    margin: 5px;
-    padding: 5px;
-    position: fixed;
-    right: 0;
-    z-index: 10;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 5px;
+  padding: 5px;
+  position: fixed;
+  right: 0;
+  z-index: 10;
+}
+
+.secondary-box10 {
+  background: rgb(202, 147, 44);
+  margin: 5px;
+  padding: 5px;
+  position: sticky;
+}
+
+.box6 {
+  background: plum;
+  width: 40%;
+  margin: 5px;
+  position: sticky;
+  bottom: 10px;
 }
