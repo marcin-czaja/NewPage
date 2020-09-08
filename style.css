@@ -84,7 +84,7 @@ footer {
   overflow: auto;
   background: rgb(212, 190, 142);
   display: inline-block;
-  margin: 5px;
+  margin: 5px auto;
   position: relative;
 }
 
@@ -94,7 +94,7 @@ footer {
   overflow: auto;
   display: inline-block;
   position: absolute;
-  margin: 5px;
+  margin: 5px auto;
   right: 0;
 }
 
@@ -150,7 +150,7 @@ footer {
 
 .secondary-box9 {
   background: rgba(255, 255, 255, 0.5);
-  margin: 5px;
+  margin: 5px auto;
   padding: 5px;
   position: sticky;
   position: -webkit-sticky;
